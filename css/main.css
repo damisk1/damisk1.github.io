@@ -1,0 +1,51 @@
+.intro {
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.7)), url('../img/mainBackgroundP.jpg') no-repeat left center;
+    background-size: cover;
+    padding: 60px 0 120px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.intro_info {
+    position: relative;
+}
+
+.intro_info h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.intro_info p {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+.intro_info p:nth-child(2):before {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 2rem auto;
+    border-radius: 4px;
+}
+
+.setaDown {
+    position: absolute;
+    bottom: -28%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.2);
+    animation: 1s ease-in-out 2s setaDown infinite alternate;
+}
+
+@keyframes setaDown {
+    0% {
+        bottom: -28%;
+    }
+    100% {
+        bottom: -30%;
+    }
+}
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Damiski | Front-End</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/311046d62e.js" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="home">
+    <header class="header">
+        <nav class="header_nav container">
+            <a href="/" id="header_logo">Gabriel Damiski</a>
+            <div class="header_menu_hamburger">
+                <div id="header_menu_hamburger_btn" onclick="abrirMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+            <ul id="header_menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="intro">
+        <div class="intro_info container">
+            <h1>Olá! me chamo Gabriel</h1>
+            <p>Estudante de Análise e desenvolvimento de sistemas</p>
+            <p>Front-End Developer</p>
+            <a href="" class="button">Download CV</a>
+            <div class="setaDown">
+                <a href="#sobre">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <section id="sobre">
+        <div class="sobre container">
+            <h2>Sobre <span style="color: #4DCBBC">mim.</span></h2>
+            <div class="sobre_conteudo">
+                <img src="./img/1644474962056.jfif" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis distinctio in vero nesciunt quaerat minus quia excepturi debitis saepe tempora esse fugiat facere exercitationem, praesentium similique, illum, tenetur laboriosam nostrum?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="conhecimentos">
+        <div class="conhecimentos container">
+            <h2>Conhecimentos<span style="color: #4DCBBC">.</span></h2>
+            <div class="conhecimentos_cards">
+                <div class="conhecimentos_card">
+                    <img src="./img/logo-html-5-512.png" alt="Primeiro card">
+                    <p>HTML5, sigla para Hypertext Markup Language, é uma linguagem de marcação de hipertexto para apresentar e estruturar o conteúdo na web.</p>
+                </div>
+                <div class="conhecimentos_card">
+                    <img src="./img/logo-css-3-512.png" alt="Segundo card">
+                    <p>CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet).</p>
+                </div>
+                <div class="conhecimentos_card">
+                    <img src="./img/logo-javascript-512.png" alt="Terceiro card">
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                </div>
+                <div class="conhecimentos_card">
+                    <img src="./img/github-512.png" alt="Quarto card">
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                </div>
+                <div class="conhecimentos_card">
+                    <img src="./img/figma-512.png" alt="Quinto card">
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                </div>
+                <div class="conhecimentos_card">
+                    <img src="./img/bootstrap-4-512.png" alt="Sexto card">
+                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                </div>
+            </div>
+            <div id="carouselConhecimentos" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselConhecimentos" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselConhecimentos" data-slide-to="1"></li>
+                  <li data-target="#carouselConhecimentos" data-slide-to="2"></li>
+                  <li data-target="#carouselConhecimentos" data-slide-to="3"></li>
+                  <li data-target="#carouselConhecimentos" data-slide-to="4"></li>
+                  <li data-target="#carouselConhecimentos" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/logo-html-5-512.png" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/logo-css-3-512.png" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/logo-javascript-512.png" alt="Terceiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/github-512.png" alt="Quarto Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/figma-512.png" alt="Quinto Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/bootstrap-4-512.png" alt="Sexto Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselConhecimentos" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselConhecimentos" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="projetos container">
+            <h2>Projetos<span style="color: #4DCBBC">.</span></h2>
+            <div class="projetos_lista">
+                <div id="carouselProjetos" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselProjetos" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselProjetos" data-slide-to="1"></li>
+                      <li data-target="#carouselProjetos" data-slide-to="2"></li>
+                      <li data-target="#carouselProjetos" data-slide-to="3"></li>
+                      <li data-target="#carouselProjetos" data-slide-to="4"></li>
+                      <li data-target="#carouselProjetos" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/manutencao.webp" alt="Primeiro Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/manutencao.webp" alt="Segundo Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/manutencao.webp" alt="Terceiro Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/manutencao.webp" alt="Quarto Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/manutencao.webp" alt="Quinto Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./img/manutencao.webp" alt="Sexto Slide">
+                        <div class="carousel-caption">
+                            <h6>Descrição do projeto</h6>
+                            <a href="" class="button">acesse</a>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselProjetos" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselProjetos" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="contato container">
+            <h2>Contato<span style="color: #4DCBBC;">.</span></h2>
+            <div class="contato_cards">
+                <div class="contato_meusDados">
+                    <h3>Meus dados</h3>
+                    <div class="contato_meusDadados_item">
+                        <i class="fa-solid fa-user"></i>
+                        <div>
+                            <div class="head">Nome</div>
+                            <div class="desc">Gabriel Damiski Machado</div>
+                        </div>
+                    </div>
+                    <div class="contato_meusDadados_item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <div class="head">Endereço</div>
+                            <div class="desc">Jacareí - SP</div>
+                        </div>
+                    </div>
+                    <div class="contato_meusDadados_item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <div class="head">Email</div>
+                            <div class="desc"><address><a href="mailto: gabrieldamiski@hotmail.com">gabrieldamiski@hotmail.com</a></address></div>
+                        </div>
+                    </div>
+                    <div class="contato_meusDados_icons">
+                        <a href="">
+                            <i class="fa-brands fa-github-square"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contato_formulario">
+                    <form action="post">
+                        <div>
+                            <label for="nome">Nome <span>*</span></label>
+                            <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
+                        </div>
+                        <div>
+                            <label for="tel">Telefone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="(12)99999-9999">
+                        </div>
+                        <div>
+                            <label for="email">Email <span>*</span></label>
+                            <input type="email" name="email" id="email" placeholder="contato@email.com" required>
+                        </div>
+                        <div>
+                            <label for="msg">Mensagem <span>*</span></label>
+                            <textarea name="msg" id="msg" rows="8" placeholder="Sua mensagem aqui..." required></textarea>
+                        </div>
+                        <button class="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
