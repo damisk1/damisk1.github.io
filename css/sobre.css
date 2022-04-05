@@ -1,5 +1,5 @@
 #sobre {
-    padding: 40px 0 80px 0;
+    padding: 40px 0 60px 0;
 }
 
 #sobre img {
@@ -25,6 +25,16 @@
 .sobre_conteudo img {
     max-width: 460px;
     margin: 0 auto;
+}
+
+.sobre_conteudo p {
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .sobre_conteudo p {
+        width: 50ch;
+    }
 }
 
 @media (min-width: 768px) {

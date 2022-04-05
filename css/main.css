@@ -1,7 +1,7 @@
 .intro {
-    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.7)), url('../img/mainBackgroundP.jpg') no-repeat left center;
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.7)), url('../img/mainBackgroundP.jpg') no-repeat center;
     background-size: cover;
-    padding: 60px 0 120px;
+    padding: 80px 0 120px;
     text-align: center;
     color: #ffffff;
 }
@@ -11,6 +11,7 @@
 }
 
 .intro_info h1 {
+    display: inline-block;
     font-size: 2rem;
     font-weight: 800;
 }
@@ -26,7 +27,7 @@
     width: 32px;
     height: 3px;
     background-color: #ffffff;
-    margin: 2rem auto;
+    margin: 3rem auto;
     border-radius: 4px;
 }
 
@@ -48,4 +49,92 @@
         bottom: -30%;
     }
 }
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: #fff;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 25rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro_info h1 {
+        border-right: 2px solid #fff;
+        white-space: nowrap;
+        animation: blinkCursor .7s steps(40) infinite normal, typing 4s steps(30) 1s normal both;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 900px) {
+    .intro {
+        padding: 120px 0 140px 0;
+    }
+
+    .intro_info h1 {
+        font-size: 3rem;
+    }
+
+    .intro_info p {
+        font-size: 2rem;
+    }
+
+    .intro_info p:nth-child(2):before {
+        margin: 4rem auto;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 38rem;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        padding: 160px 0 160px 0;
+    }
+
+    .intro_info h1 {
+        font-size: 3.2rem;
+    }
+
+    .intro_info p {
+        font-size: 2.4rem;
+        margin-bottom: 60px;
+    }
+
+    .intro_info p:nth-child(2):before {
+        margin: 4.4rem auto;
+    }
+
+    .intro_info .button {
+        font-size: 1.4rem;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 40rem;
+        }
+    }
+    
+}
+
 

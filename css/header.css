@@ -91,12 +91,19 @@ header {
     }
     
     #header_menu li a{
-        padding: 10px 0;
+        padding: 16px 0;
         border-top: none;
     }
 
     #header_menu .dNone{
         display: block;
+    }
+    #header_menu .dNone i {
+        font-size: 1.8rem;
+    }
+    #header_menu .dNone i:hover {
+        color: #4DCBBC;
+        transition: color .3s ease;
     }
 
     .header {
@@ -107,6 +114,29 @@ header {
     #header_logo {
         background-color: #4DCBBC;
         padding: 20px;
+    }
+
+    #header_menu li a {
+        font-size: 1.3rem;
+    }
+
+    #header_menu li a[href*="#"]::after {
+        content: '';
+        display: block;
+        width: 0%;
+        height: 2px;
+        background-color: #4DCBBC;
+        transition: width .4s ease;
+    }
+
+    #header_menu li a:hover::after {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #header_logo {
+        font-size: 1.8rem;
     }
 }
 
