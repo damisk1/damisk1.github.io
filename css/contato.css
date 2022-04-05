@@ -17,7 +17,7 @@
     content: '';
     width: 32px;
     height: 3px;
-    background-color: #4DCBBC;
+    background-color: #43ada1;
     border-radius: 4px;
     transform: translateY(-50%);
 }
@@ -44,7 +44,7 @@
 }
 
 .contato_meusDadados_item i {
-    color: #4DCBBC;
+    color: #43ada1;
     margin-right: 8px;
 }
 

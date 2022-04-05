@@ -36,7 +36,7 @@
 
 /**/
 header {
-    background-color: #4DCBBC;
+    background-color: #43ada1;
     padding: 10px 0;
 }
 
@@ -101,12 +101,8 @@ header {
     #header_menu .dNone{
         display: block;
     }
-    #header_menu .dNone i {
-        font-size: 1.8rem;
-    }
-    #header_menu .dNone i:hover {
-        color: #4DCBBC;
-        transition: color .3s ease;
+    #header_menu .dNone img {
+        width: 1.5rem;
     }
 
     .header {
@@ -115,7 +111,7 @@ header {
     }
 
     #header_logo {
-        background-color: #4DCBBC;
+        background-color: #43ada1;
         padding: 20px;
     }
 
@@ -128,7 +124,7 @@ header {
         display: block;
         width: 0%;
         height: 2px;
-        background-color: #4DCBBC;
+        background-color: #43ada1;
         transition: width .4s ease;
     }
 
