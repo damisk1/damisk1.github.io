@@ -53,6 +53,7 @@
         padding: 20px;
         border-radius: 4px;
         gap: 10px;
+        background: #f7f7f7;
     }
     .conhecimentos_card:hover {
         background: #fff;
