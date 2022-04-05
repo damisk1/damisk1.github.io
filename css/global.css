@@ -6,7 +6,6 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 a {
@@ -25,6 +24,8 @@ ul {
 h2 {
     margin-bottom: 40px;
     font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .container {
@@ -42,6 +43,7 @@ h2 {
     transition: all .2s ease;
     border-radius: 4px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .button:hover {
     transform:scale(110%);
@@ -56,6 +58,7 @@ img {
 label {
     display: block;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 input, textarea {
@@ -64,6 +67,7 @@ input, textarea {
     background-color: #f7f7f7;
     padding: 12px;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
 }
 input:focus, textarea:focus {       
     box-shadow: 0px 0px 2px 1px #4DCBBC;

@@ -43,6 +43,8 @@ header {
 #header_logo {
     font-size: 1.2rem;
     font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 .header_nav {
@@ -62,6 +64,7 @@ header {
     display: block;
     padding: 20px 80px 20px 20px;
     border-top: 1px solid #222;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header_menu.change {

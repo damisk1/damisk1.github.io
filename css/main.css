@@ -4,6 +4,7 @@
     padding: 80px 0 120px;
     text-align: center;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
 }
 
 .intro_info {
@@ -64,7 +65,7 @@
         width: 0;
     }
     to {
-        width: 25rem;
+        width: 21rem;
     }
 }
 
@@ -99,7 +100,7 @@
             width: 0;
         }
         to {
-            width: 38rem;
+            width: 31rem;
         }
     }
 }
@@ -131,7 +132,7 @@
             width: 0;
         }
         to {
-            width: 40rem;
+            width: 33rem;
         }
     }
 }

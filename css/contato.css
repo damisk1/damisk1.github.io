@@ -28,6 +28,7 @@
     padding: 40px;
     border-radius: 4px 4px 0 0;
     box-shadow: 0px 2px 10px 1px rgb(0 0 0 / 20%);
+    font-family: 'Roboto', sans-serif;
 }
 
 .contato_meusDados h3 {
@@ -49,7 +50,7 @@
 
 .contato_meusDadados_item .head {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .contato_meusDados_icons {
